@@ -1,0 +1,27 @@
+{
+  "author": "Sasa Milasinovic",
+  "deprecated": false,
+  "description": "Ranked choice voting",
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.2",
+    "ts-node": "^10.7.0",
+    "tslint": "^5.5.0",
+    "typescript": "^4.6.4",
+    "prettier": "^2.6.2",
+    "tsc-alias": "^1.4.1"
+  },
+  "license": "MIT",
+  "main": "src/index.ts",
+  "name": "ranked-choice-voting",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "lint:fix": "prettier --write 'src/**/*.ts'",
+    "test": "jest --verbose"
+  },
+  "version": "0.0.1"
+}
